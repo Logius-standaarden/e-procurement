@@ -111,10 +111,10 @@ var organisationConfig = {
     },
     en: {
       sotd: "Status of This Document",
-      def: `This is the definitive version of this document. Edits resulting from consultations have been applied.`,
-      wv: `This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by the TO.`,
-      cv: `This is a proposed recommendation approved by the TO. Comments regarding this document may be sent to `,
-      vv: `This is the definitive concept of this document. Edits resulting from consultations have been applied.`,
+      def: "This is the definitive version of this document. Edits resulting from consultations have been applied.",
+      wv: "This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by the TO.",
+      cv: "This is a proposed recommendation approved by the TO. Comments regarding this document may be sent to ",
+      vv: "This is the definitive concept of this document. Edits resulting from consultations have been applied.",
       basis: "This document has no official standing.",
     },
   },
@@ -129,19 +129,19 @@ var organisationConfig = {
       short: "CC0",
       url: "https://creativecommons.org/publicdomain/zero/1.0/",
       image:
-        "https://tools.geostandaarden.nl/respec/style/logos/CC-Licentie.svg",
+        "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/CC-Licentie.svg",
     },
     "cc-by": {
       name: "Creative Commons Attribution 4.0 International Public License",
       short: "CC-BY",
       url: "https://creativecommons.org/licenses/by/4.0/legalcode",
-      image: "https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg",
+      image: "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/cc-by.svg",
     },
     "cc-by-nd": {
       name: "Creative Commons Naamsvermelding-GeenAfgeleideWerken 4.0 Internationaal",
       short: "CC-BY-ND",
       url: "https://creativecommons.org/licenses/by-nd/4.0/legalcode.nl",
-      image: "https://tools.geostandaarden.nl/respec/style/logos/cc-by-nd.svg",
+      image: "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/cc-by-nd.svg",
     },
   },
 	
