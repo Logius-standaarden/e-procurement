@@ -1,8 +1,7 @@
 // Plaats dit bestand op een centrale locatie voor hergebruik in meerdere documenten.
 var organisationConfig = {
   nl_organisationName: "Logius",
-  nl_organisationStylesURL:
-    "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
+  nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
   nl_organisationPublishURL: "https://gitdocumentatie.logius.nl/publicatie/",
   logos: [{
     src: "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg",
@@ -12,9 +11,20 @@ var organisationConfig = {
     width: 44,
     url: "https://www.logius.nl/standaarden",
   }],
-  
-  addSectionLinks: true,
 
+  postProcess: [window.respecMermaid.createFigures],
+  
+  edDraftURI: ["github"],
+	latestVersion: ["nl_organisationPublishURL", "pubDomain", "/"],
+	thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
+	prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "publishDate"],
+  useLogo: true,
+  useLabel: true,
+
+  // Onduidelijk waarom de license in de organisationConf is opgenomen. Dan lijkt me de array onderin met _alle_ licenses overbodig.
+  license: "cc0",
+  addSectionLinks: true,
+  
   localizationStrings: {
     en: {
       wv: "Draft",
